@@ -1,0 +1,13 @@
+@use './auth/components/LoginForm/_LoginForm';
+@use './album/components/AlbumItem/_AlbumItem';
+
+
+:root{
+    --background-brand: #000;
+    --color-brand: #fff;
+}
+
+body{
+    background-color: var(--background-brand);
+    color: var(--color-brand);
+}
